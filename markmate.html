@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MarkMate | Student Marks Calculator</title>
+
+    <link rel="stylesheet" href="markmate.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 MarkMate</h1>
+        <p class="subtitle">Student Marks Calculator</p>
+
+        <div class="card">
+
+            <label for="subject1">Subject 1</label>
+            <input type="number" id="subject1" placeholder="Enter marks">
+
+            <label for="subject2">Subject 2</label>
+            <input type="number" id="subject2" placeholder="Enter marks">
+
+            <label for="subject3">Subject 3</label>
+            <input type="number" id="subject3" placeholder="Enter marks">
+
+            <button onclick="calculateMarks()">Calculate Results</button>
+
+            <div id="result" class="result"></div>
+
+        </div>
+
+        <p class="footer">Built with HTML • CSS • JavaScript</p>
+
+    </div>
+
+    <script src="markmate.js"></script>
+
+</body>
+</html>
